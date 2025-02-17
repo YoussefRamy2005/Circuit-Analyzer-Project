@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
 /*-----Global data-----*/
 
 // queue to store the recieved data in order
@@ -12,7 +13,7 @@ string buffer = "";
 
 
 
-/*-----Functions-----*/
+/*-----Functions' Prototypes-----*/
 
 // function to check data validity when processing buffer
 bool data_ok();
@@ -28,6 +29,7 @@ double calculate_parallel();
 double calculate_connection(vector<double> &resistances , char type);
 
 /*----------*/
+
 
 
 int main() {
@@ -72,6 +74,9 @@ int main() {
     return 0;
 }
 
+
+
+/*---------------------------Functions Implementation---------------------------*/
 
 bool data_ok(){
     if(buffer.size() == 1){
@@ -178,3 +183,5 @@ double calculate_connection(vector<double> &resistances , char type){
         return 1/equivalent;
     }
 }
+
+/*----------------------------------------------------------------*/
