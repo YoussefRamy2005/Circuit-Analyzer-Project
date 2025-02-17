@@ -13,7 +13,7 @@ string buffer = "";
 
 
 
-/*-----Functions' Prototypes-----*/
+/*-----Functions Prototypes-----*/
 
 // function to check data validity when processing buffer
 bool data_ok();
